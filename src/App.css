@@ -1,0 +1,35 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f8fa;
+  color: rgb(49, 42, 98);
+ 
+}
+
+/* Layout container */
+.app-container{
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #f5f8fa;
+}
+
+.main-content {
+  
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #f5f8fa;
+}
+@media screen and (max-width: 992px) {
+  .main-area {
+    display: block
+  }
+  }  
+

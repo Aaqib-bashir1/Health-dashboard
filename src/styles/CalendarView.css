@@ -1,0 +1,85 @@
+.calendar-view {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  flex: 1;
+}
+
+.calendar-view h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.calendar-day-name {
+  text-align: center;
+  font-weight: bold;
+  color: #777;
+}
+
+.calendar-date-cell {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 0.5rem;
+  min-height: 60px;
+  position: relative;
+}
+
+.date-number {
+  font-size: 0.85rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.appointment-times {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.time-slot {
+  background: #007bff;
+  color: white;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.calendar-appointment-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.appointment-card {
+  background: #f5f7fa;
+  border-left: 4px solid #007bff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.appointment-card h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1rem;
+}
+
+.appointment-card p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.appointment-card .doctor {
+  font-weight: 500;
+}
